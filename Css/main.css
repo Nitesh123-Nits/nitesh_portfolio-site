@@ -367,12 +367,14 @@ li{
 
  .myphoto__container{
      padding: .4rem;
+
  }
 
  .myphoto{
      display: block;
      max-width:var(--max-width) ;
-     filter: grayscale(100%);    
+     filter: grayscale(100%);  
+     border-radius: 50%;  
      transition: var(--transition-time);
  }
  .myphoto:hover{
