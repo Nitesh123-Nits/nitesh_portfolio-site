@@ -51,7 +51,6 @@
    --text-color-primary:#ffffff;
    --i-color:#11e911;
    --bg-color: #1b1b1b;
-   --text-color-secondary:#d0d0d0;
    --text-color-secondary:#fefefe;
    --box-shadow-card:rgb(243, 165, 109);
    --bg-secondary:#2a2a2a;
@@ -74,7 +73,7 @@ body {
     color: var(--text-color-primary);
     font-family: 'Courier New', Courier, monospace;
     overflow-x: hidden;
-    cursor: url('/Images/cursor1.png'), auto;
+    /* cursor: url('/Images/cursor1.png'), auto; */
 }
 img{
     display: block;
@@ -103,9 +102,9 @@ box-shadow: inset 5px 5px 14px #262525,
             inset -5px -5px 14px #949393;
   }
 
-:is(a,button,.logo__wrapper,button){
+/* :is(a,button,.logo__wrapper,button){
     cursor:url('/Images/cursor2.png') , auto;
-}
+} */
 a{
     text-decoration: none;
     color: var(--text-color-primary);
@@ -223,7 +222,8 @@ li{
     right: 1rem;
     z-index:99999;
     transform: translateX(150%);
-    cursor: url('/Images/cursor2.png'), auto;
+    cursor: pointer;
+    /* cursor: url('/Images/cursor2.png'), auto; */
  }
  .hamburger > span{
      display: inline-block;
