@@ -915,6 +915,15 @@ i{
     }
   }
   .more-project{
-    
-  color: #0c69ec;
+    text-align: center;
+    padding: .3rem .6rem;
+    display: inline-block;
+    color: var(--animation-color-1);
+    font-size: var(--github-link);
+    font-weight: 700;
+    border: 3px solid var(--border-c);
+    transition: .3s;
+    background-image: radial-gradient(currentColor .5px, transparent .6px), radial-gradient(currentColor .5px, transparent .5px);
+    background-size: calc(20 * .5px) calc(20 * .5px);
+    background-position: 0 0, calc(10 * .5px) calc(10 * .5px)
 }
