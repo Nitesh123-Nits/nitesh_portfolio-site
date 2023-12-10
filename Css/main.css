@@ -923,7 +923,7 @@ i{
     font-weight: 700;
     border: 3px solid var(--border-c);
     transition: .3s;
-    pointer-events: painted;
+    /* cursor: pointer; */
     background-image: radial-gradient(currentColor .5px, transparent .6px), radial-gradient(currentColor .5px, transparent .5px);
     background-size: calc(20 * .5px) calc(20 * .5px);
     background-position: 0 0, calc(10 * .5px) calc(10 * .5px)
